@@ -1,0 +1,35 @@
+@charset "utf8";
+
+body{
+    background: black;
+}
+
+#principal{
+    width: 1000px;
+    height: 700px;
+    margin: 30px auto;
+    background: white;
+}
+
+header{
+    background-image: url(../images/Sistemas-de-gestion-de-la-calidad.jpg);
+    background-size: 100% 70%;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 400px;
+}
+
+section{
+    background-color: white;
+}
+
+h1{
+    color: white;   
+    padding: 9% 0% 0% 27%;
+}
+
+#what{
+    padding: 0% 13% 0% 5%;
+}
+
