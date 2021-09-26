@@ -1,4 +1,5 @@
 @charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Yaldevi:wght@600&display=swap');
 
 body{
     background: black;
@@ -26,10 +27,29 @@ section{
 
 h1{
     color: white;   
-    padding: 9% 0% 0% 27%;
+    padding: 10% 0% 0% 25%;
+    font-family: 'Yaldevi', sans-serif;;
 }
 
-#what{
+h2{
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.información{
     padding: 0% 13% 0% 5%;
+}
+
+.información p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.información img{
+    padding: 5% 0% 0% 25%;
+}
+
+li{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
