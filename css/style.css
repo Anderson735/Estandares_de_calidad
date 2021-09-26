@@ -25,6 +25,11 @@ section{
     background-color: white;
 }
 
+footer{
+    background-color: white;
+    margin: -2% 0% 0% 0%;
+}
+
 h1{
     color: white;   
     padding: 10% 0% 0% 25%;
@@ -52,4 +57,74 @@ li{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
+
+.bibliografia{
+    padding: 0% 13% 0% 5%;
+    list-style: none;
+    transform: translateY(42px);
+}
+
+/*<-------------------------- RESPONSIVE ------------------------------>*/
+
+@media screen and (max-width:1000px){ 
+    #principal{
+        width: 800px;
+    }
+    header{
+        width: 800px;
+    }
+    footer{
+        margin: -3% 0% 0% 0%;;
+    }
+    .información img {
+        padding: 5% 0% 0% 21%;
+        width: 405px;
+    }
+}
+
+@media screen and (max-width:768px){ 
+    #principal{
+        width: 600px;
+    }
+    header{
+        width: 600px;
+    }
+    footer{
+        margin: -4% 0% 0% 0%;;
+    }
+    .información img {
+        padding: 3% 0% 0% 24%;
+        width: 270px;
+    }
+    h1 {
+        color: white;
+        padding: 18% 0% 0% 15%;
+        font-family: 'Yaldevi', sans-serif;
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:576px){ 
+    #principal{
+        width: 400px;
+    }
+    header{
+        width: 400px;
+    }
+    footer{
+        margin: -5% 0% 0% 0%;;
+    }
+    .información img {
+        padding: 3% 0% 0% 18%;
+        width: 230px;
+    }
+    h1 {
+        color: white;
+        padding: 30% 0% 0% 10%;
+        font-family: 'Yaldevi', sans-serif;
+        font-size: 20px;
+    }
+}
+
+
 
